@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live TT</title>
     <link rel="stylesheet" href="./css/live.css">
+    <script src="js/live.js"></script>
 </head>
 <body>
     <header>
@@ -30,7 +31,7 @@
       <h2>Curtiu? Informe seu email então:</h2>
       <form id="contato">
         <input type="email" name="email" id="email" placeholder="E-mail">
-        <button type="button" id="enviar">Enviar</button>
+        <button oncliclk="salvarEmail()" type="button" id="enviar">Enviar</button>
       </form>
 
       <div id="mensagem"></div>
